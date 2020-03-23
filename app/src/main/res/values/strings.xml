@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="app1">Guardian News Article Search</string>
+    <string name="app2">NASA Image of Day</string>
+    <string name="app3">NASA Earth Imagery Database</string>
+    <string name="app4">BBC News Reader</string>
+    <string name="app1_desc">Search Articles With Term</string>
+    <string name="app2_desc">Retrieve Image From NASA Server</string>
+    <string name="app3_desc">Image of a position of Lat and Lon</string>
+    <string name="app4_desc">Read Latest News Headlines</string>
+</resources>
