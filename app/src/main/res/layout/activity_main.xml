@@ -27,7 +27,8 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
-                <ImageView
+                <ImageButton
+                    android:id="@+id/GuardianButton"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circlepurple"

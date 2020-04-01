@@ -8,4 +8,33 @@
     <string name="app2_desc">Retrieve Image From NASA Server</string>
     <string name="app3_desc">Image of a position of Lat and Lon</string>
     <string name="app4_desc">Read Latest News Headlines</string>
+    <!--    Guardian News strings-->
+    <string name="title_detail">Article Details</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="search">Search article</string>
+    <string name="saved">Saved article</string>
+    <string name="article_saved">Article saved</string>
+    <string name="article_deleted">Article deleted</string>
+    <string name="action_save">Save Article</string>
+    <string name="action_delete">Delete Article</string>
+    <string name="article_section">Section:</string>
+    <string name="news_view_in_browser">View in Browser</string>
+    <string name="article_url">URL:</string>
+    <string name="article_delete_message">Are you sure you want to delete this articleSetGet?</string>
+    <string name="article_delete_yes">yes</string>
+    <string name="article_delete_no">no</string>
+    <string name="article_help">
+1. Click on lines icon on top left to open drawer menu.\n
+2. Select \'Search articleSetGet\' to search an articleSetGet from The Guardian News.\n
+3. Type the keyword and click on the search .\n
+4. Click on the articleSetGets list to view details or save it in Favourite.\n
+5. You can delete articleSetGets from your Favourite list by clicking on delete button.\n
+6. You can view saved articleSetGets by clicking on the \'Saved Articles\'.</string>
+    <string name="article_ok">OK</string>
+    <string name="enter_article_title_to_search">Enter articleSetGet title to search</string>
+    <string name="button_text_guardian">The Guardian News</string>
+    <string name="help">Help</string>
+    <string name="guardian_button">Guardian</string>
+    <string name="other_activities">Other Activities</string>
 </resources>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Projet final</string>
+    <string name="app1">Guardian Recherche d\'articles</string>
+    <string name="app2">NASA Image du jour</string>
+    <string name="app3">NASA Base de données d\'images de la Terre</string>
+    <string name="app4">BBC Lecteur de nouvelles </string>
+    <string name="app1_desc">Rechercher des articles avec un terme</string>
+    <string name="app2_desc">Récupérer l\'image du serveur NASA</string>
+    <string name="app3_desc">Image d\'une position de Lat et Lon</string>
+    <string name="app4_desc">Lire les dernières nouvelles</string>
+    <!--    Guardian News strings-->
+    <string name="title_detail">Détails de l\'article</string>
+    <string name="drawer_open">Tiroir ouvert</string>
+    <string name="drawer_close">fermer le tiroir</string>
+    <string name="search">Rechercher un article</string>
+    <string name="saved">Article enregistré</string>
+    <string name="article_saved">Article enregistré</string>
+    <string name="article_deleted">Enregistré supprimé</string>
+    <string name="action_save">Article enregistré</string>
+    <string name="action_delete">Enregistré supprimé</string>
+    <string name="article_section">Section:</string>
+    <string name="news_view_in_browser">Afficher dans le navigateur</string>
+    <string name="article_url">URL:</string>
+    <string name="article_delete_message">Voulez-vous vraiment supprimer cet article?</string>
+    <string name="article_delete_yes">oui</string>
+    <string name="article_delete_no">no</string>
+    <string name="article_help">
+1.Cliquez sur l\'icône des lignes en haut à gauche pour ouvrir le menu du tiroir.\n
+2.Sélectionnez Rechercher un article pour rechercher un articleSetGet dans The Guardian News.\n
+3.Tapez le mot-clé et cliquez sur la recherche .\n
+4.Cliquez sur la liste articleSetGets pour afficher les détails ou l\'enregistrer dans les favoris\n
+5.Vous pouvez supprimer l\'article de votre liste de favoris en cliquant sur le bouton Supprimer.\n
+6.Vous pouvez afficher l\'articleSetGets enregistré en cliquant sur les articles enregistrés.</string>
+    <string name="article_ok">OK</string>
+    <string name="enter_article_title_to_search">Entrez le titre de l\'article à rechercher</string>
+    <string name="button_text_guardian">The Guardian News</string>
+    <string name="help">Aidez-moi</string>
+    <string name="guardian_button">Guardian</string>
+    <string name="other_activities">d\'autres activités</string>
+</resources>

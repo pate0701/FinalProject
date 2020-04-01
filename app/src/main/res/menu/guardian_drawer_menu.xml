@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawerMenuSearch"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/drawerMenuSaved"
+            android:title="@string/saved" />
+    </group>
+
+    <item android:title="@string/other_activities">
+        <menu>
+            <item
+                android:id="@+id/NasaImage"
+                android:title="Nasa Image" />
+            <item
+                android:id="@+id/NasaEarth"
+                android:title="Nasa Earth" />
+            <item
+                android:id="@+id/BBCNews"
+                android:title="BBC News" />
+        </menu>
+    </item>
+</menu>
