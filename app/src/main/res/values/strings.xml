@@ -1,5 +1,41 @@
 <resources>
+
     <string name="app_name">FinalProject</string>
+    <!--    First screen buttons-->
+    <string name="button_text_guardian">The Guardian News</string>
+    <string name="button_text_nasa_image">NASA image of the day</string>
+    <string name="button_text_nasa_earth">NASA earth imagery</string>
+    <string name="button_text_BBC">BBC news</string>
+
+    <string name="article_author">Author:</string>
+    <string name="article_version">Version:</string>
+
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <string name="other_activities">Other Activities</string>
+    <string name="help">Help</string>
+    <!--    NASA Image strings-->
+    <string name="image_hint_search">Select date</string>
+    <string name="image_button_search">Search for Image of the day</string>
+    <string name="image_detail_title">Title</string>
+    <string name="image_detail_explanation">Explanation</string>
+    <string name="image_detail_date">Date</string>
+    <string name="image_detail_url">URL</string>
+    <string name="image_author_name">Mohammedaaman</string>
+    <string name="image_okay">OKAY</string>
+    <string name="image_help">- Select a date and press the button to get the title of image.\n
+- Click on the title (list item) to view the image and description.\n
+- You can save the image to gallery by pressing Save button for later viewing.\n
+- Select Saved Images from drawer to show Saved images.</string>
+    <string name="image_search_image">Search</string>
+    <string name="image_saved_image">Saved Images</string>
+    <string name="image_saved_success">Image saved successfully</string>
+    <string name="image_delete_success">Image deleted successfully</string>
+    <string name="image_save_img">Save</string>
+    <string name="image_delete_img">Delete</string>
+    <string name="image_toast_select_date">Please select a date to search</string>
+
     <string name="app1">Guardian News Article Search</string>
     <string name="app2">NASA Image of Day</string>
     <string name="app3">NASA Earth Imagery Database</string>
@@ -8,4 +44,5 @@
     <string name="app2_desc">Retrieve Image From NASA Server</string>
     <string name="app3_desc">Image of a position of Lat and Lon</string>
     <string name="app4_desc">Read Latest News Headlines</string>
+
 </resources>

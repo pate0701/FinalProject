@@ -21,13 +21,15 @@
             android:id="@+id/bankcardId"
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:focusable="true">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
-                <ImageView
+                <ImageButton
+                    android:id="@+id/GuardianButton"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circlepurple"
@@ -61,13 +63,15 @@
             android:clickable="true"
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:focusable="true">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center">
-                <ImageView
+                <ImageButton
+                    android:id="@+id/Nasa_image"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/circlepink"
@@ -108,7 +112,8 @@
             android:clickable="true"
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:focusable="true">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -146,7 +151,8 @@
             android:clickable="true"
             android:layout_width="160dp"
             android:layout_height="190dp"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:focusable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
