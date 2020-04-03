@@ -8,4 +8,13 @@
     <string name="app2_desc">Retrieve Image From NASA Server</string>
     <string name="app3_desc">Image of a position of Lat and Lon</string>
     <string name="app4_desc">Read Latest News Headlines</string>
+    <string name="latitute">Latitude : </string>
+    <string name="longitute">Longitutde : </string>
+    <string name="fetch">Fetch</string>
+    <string name="add_favorite">Add to Favourite</string>
+    <string name="favorite">Favourite</string>
+    <string name="author">Jay Patel</string>
+    <string name="date">02 April 2020</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>
