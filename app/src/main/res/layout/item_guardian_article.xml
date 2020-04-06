@@ -10,7 +10,6 @@
         android:id="@+id/titleArticle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#00BCD4"
         android:text="Title of the articleSetGet"
         android:textColor="@android:color/black"
         android:textSize="18sp"
@@ -32,18 +31,6 @@
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleArticle" />
-
-    <TextView
-        android:id="@+id/sectionTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:background="#4AC350"
-        android:text="SECTION"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/worldNewsText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/worldNewsText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

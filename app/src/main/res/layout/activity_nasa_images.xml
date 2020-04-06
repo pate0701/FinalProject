@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NasaEarth">
-
+    tools:context=".NasaImages">
     <TextView
         android:id="@+id/nasaEarth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="THIS IS THE NASA EARTH PAGE"
+        android:text="THIS IS THE NASA IMAGES PAGE"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="112dp"
         tools:ignore="MissingConstraints" />

@@ -45,12 +45,11 @@ public class ListArticleAdapter extends BaseAdapter {
         String section = articleSetGet.getSectionName();
 
         TextView textView2 = convertView.findViewById(R.id.titleArticle);
-        TextView textView3 = convertView.findViewById(R.id.sectionTextView);
         TextView textView4 = convertView.findViewById(R.id.worldNewsText);
 
         textView2.setText(title);
 
-        textView4.setText(section);
+        textView4.setText("Section: "+section);
         return convertView;
     }
 }

@@ -1,14 +1,14 @@
 package com.example.finalproject;
 
-import android.os.Bundle;
-
 import androidx.appcompat.app.AppCompatActivity;
 
-class NasaImages extends AppCompatActivity {
+import android.os.Bundle;
+
+public class NasaImages extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nasaimages);
+        setContentView(R.layout.activity_nasa_images);
     }
 }

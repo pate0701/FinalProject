@@ -3,17 +3,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/menuImage"
+        android:id="@+id/NasaImage"
         android:title="Nasa Image"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="never" />
     <item
-        android:id="@+id/menuEarth"
+        android:id="@+id/NasaEarth"
         android:title="Nasa Earth"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="never" />
     <item
-        android:id="@+id/menuBBC"
+        android:id="@+id/BBCNews"
         android:title="BBC News"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/menuHelp"
         android:title="Help"/>

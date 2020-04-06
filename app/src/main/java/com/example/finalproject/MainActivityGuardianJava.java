@@ -67,9 +67,10 @@ public class MainActivityGuardianJava extends AppCompatActivity {
                         startActivity(intent4);
                         break;
                     case R.id.NasaEarth:
-                        Intent intent5 = new Intent(MainActivityGuardianJava.this, NasaEarth.class);
+                        Intent intent5 = new Intent(MainActivityGuardianJava.this, NASAEARTH.class);
                         startActivity(intent5);
                         break;
+
 
                 }
                 drawerLayout.closeDrawer(GravityCompat.START);
@@ -81,10 +82,31 @@ public class MainActivityGuardianJava extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
+        getMenuInflater().inflate(R.menu.guardian_toolbar_menu, menu);
         return true;
     }
-
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.NasaImage:
+                Intent intent1 = new Intent(this, NasaImages.class);
+                startActivity(intent1);
+                return true;
+            case R.id.NasaEarth:
+                Intent intent2 = new Intent(this, NASAEARTH.class);
+                startActivity(intent2);
+                return true;
+            case R.id.BBCNews:
+                Intent intent3 = new Intent(this, BBC.class);
+                startActivity(intent3);
+                return true;
+            case R.id.menuHelp:
+                showHelpDialog();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
     @Override
     public void onBackPressed() {
