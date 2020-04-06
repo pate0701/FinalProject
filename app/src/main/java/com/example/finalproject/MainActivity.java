@@ -1,11 +1,12 @@
 package com.example.finalproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent (MainActivity.this, NasaImagery.class);
                 startActivity (intent);
+                Toast.makeText(MainActivity.this, R.string.welcome_msg, Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -22,14 +22,18 @@
     <string name="item2">पसंदीदा देखें</string>
     <string name="item3">ऐप सेलेक्शन में जाएं</string>
 
-    <string name="help">Help</string>
-    <string name="use">Direction To Use :</string>
-    <string name="use_desc"></string>
-    <string name="features">Features :</string>
-    <string name="features_desc">You can search image from various location from input of Latitude and Longitude. If you like that place you can add it to your favourite list.It is very user friendly and Easy-To-Use application.</string>
-    <string name="dev">About the Developer :</string>
-    <string name="dev_desc">Myself Jay Patel,the developer of this Application.</string>
-    <string name="contact">Business Contact :</string>
-    <string name="contact_desc">Email : pate0701@algonquinlive.com</string>
-    <string name="final_greet">Thanks !</string>
+    <string name="help">मदद</string>
+    <string name="use">उपयोग करने की दिशा:</string>
+    <string name="use_desc">अक्षांश और देशांतर मान दर्ज करें और संपादित करें बटन पर क्लिक करें और यदि आपको छवि पसंद है तो आप इसे "पसंदीदा में जोड़ें" बटन पर क्लिक करके पसंदीदा में जोड़ सकते हैं।</string>
+    <string name="features">विशेषताएं :</string>
+    <string name="features_desc">आप अक्षांश और देशांतर के इनपुट से विभिन्न स्थान से छवि खोज सकते हैं। अगर आपको वह जगह पसंद है तो आप इसे अपनी पसंदीदा सूची में जोड़ सकते हैं। यह बहुत उपयोगकर्ता के अनुकूल और ईज़ी-टू-यूज़ एप्लिकेशन है।</string>
+    <string name="dev">डेवलपर के बारे में:</string>
+    <string name="dev_desc">इस एप्लिकेशन के विकासकर्ता, स्वयं जय पटेल।</string>
+    <string name="contact">व्यापारिक संपर्क :</string>
+    <string name="contact_desc">ईमेल: pate0701@algonquinlive.com</string>
+    <string name="final_greet">धन्यवाद !</string>
+
+    <string name="welcome_msg">नासा / बिंग इमेजरी डेटाबेस ऐप में आपका स्वागत है</string>
+    <string name="fav_toolbar_toast">पसंदीदा छवि स्थान पर नेविगेट करना</string>
+    <string name="help_toolbar_toast">मदद करने के लिए नेविगेट करना!</string>
 </resources>

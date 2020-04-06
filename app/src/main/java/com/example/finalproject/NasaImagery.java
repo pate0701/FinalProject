@@ -5,6 +5,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
@@ -36,11 +37,14 @@ public class NasaImagery extends AppCompatActivity implements NavigationView.OnN
     Button fetch,add_fav;
     EditText mlatitude,mlongitude;
     ImageView imgResult;
+    SharedPreferences prefLati=null,prefLongi=null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_nasa_imagery);
-        Toolbar tBar = (Toolbar)findViewById(R.id.my_toolbar);
+
+        Toolbar tBar = findViewById(R.id.my_toolbar);
         setSupportActionBar(tBar);
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -58,9 +62,21 @@ public class NasaImagery extends AppCompatActivity implements NavigationView.OnN
         imgResult = findViewById (R.id.img_result);
         add_fav = findViewById (R.id.btn_add_fav);
 
+        prefLati=getSharedPreferences("LatitudeData",Context.MODE_PRIVATE);
+        String SavedLatitude=prefLati.getString("ReserveLatitude","Not Found");
+        mlatitude.setText(SavedLatitude);
+
+
+        prefLongi=getSharedPreferences("LongitudeData",Context.MODE_PRIVATE);
+        String SavedLongitude=prefLongi.getString("ReserveLongitude","Not Found");
+        mlongitude.setText(SavedLongitude);
+
+
         fetch.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View v) {
+                saveSharedPreference(mlatitude.getText().toString(),mlongitude.getText().toString());
+
                 double latitude = Double.parseDouble (mlatitude.getText ().toString ());
                 double longitude = Double.parseDouble (mlongitude.getText ().toString ());
 
@@ -85,7 +101,6 @@ public class NasaImagery extends AppCompatActivity implements NavigationView.OnN
 
                 newRowValues.put(DatabaseOpener.COL_LATITUDE, latitude);
                 newRowValues.put(DatabaseOpener.COL_LONGITUDE, longitude);
-
 
                 long newId = db.insert(DatabaseOpener.TABLE_NAME, null, newRowValues);
                 BitmapDrawable drawable = (BitmapDrawable) imgResult.getDrawable ();
@@ -114,7 +129,8 @@ public class NasaImagery extends AppCompatActivity implements NavigationView.OnN
                 Toast.makeText(this, "Click On Any Favorites to View and Delete.", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.itemNav3:
-                finish();
+                startActivity(new Intent(NasaImagery.this, MainActivity.class));
+                Toast.makeText(this, "Navigating to HomePage !", Toast.LENGTH_SHORT).show();
                 break;
         }
 
@@ -158,13 +174,26 @@ public class NasaImagery extends AppCompatActivity implements NavigationView.OnN
         {
             case R.id.show_fav: {
                 startActivity(new Intent(NasaImagery.this, Favourites.class));
+                Toast.makeText(NasaImagery.this,R.string.fav_toolbar_toast,Toast.LENGTH_SHORT).show();
             } break;
 
             case R.id.help: {
                 startActivity(new Intent(NasaImagery.this, About.class));
+                Toast.makeText(NasaImagery.this,R.string.help_toolbar_toast,Toast.LENGTH_SHORT).show();
             }
 
         }
         return true;
+    }
+
+    private void saveSharedPreference(String Latitude,String Longitude){
+        SharedPreferences.Editor editorLati=prefLati.edit();
+        editorLati.putString("ReserveLatitude",Latitude);
+        editorLati.commit();
+
+        SharedPreferences.Editor editorLongi=prefLongi.edit();
+        editorLongi.putString("ReserveLongitude",Longitude);
+        editorLongi.commit();
+
     }
 }

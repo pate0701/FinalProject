@@ -31,4 +31,8 @@
     <string name="contact">Business Contact :</string>
     <string name="contact_desc">Email : pate0701@algonquinlive.com</string>
     <string name="final_greet">Thanks !</string>
+
+    <string name="welcome_msg">Welcome to NASA/Bing Imagery Database App</string>
+    <string name="fav_toolbar_toast">Navigating to Favourite Image Location</string>
+    <string name="help_toolbar_toast">Navigating to Help !</string>
 </resources>

@@ -139,8 +139,8 @@ public class Favourites extends AppCompatActivity {
             Coordinates thisRow = getItem(position);
 
             //get the TextViews
-            TextView itemLatitue = (TextView)newView.findViewById(R.id.listitem_latitude);
-            TextView itemLongitude = (TextView)newView.findViewById(R.id.listitem_longitude);
+            TextView itemLatitue = newView.findViewById(R.id.listitem_latitude);
+            TextView itemLongitude = newView.findViewById(R.id.listitem_longitude);
 
             //update the text fields:
             itemLatitue.setText(  String.valueOf (thisRow.getLatitude ()));
