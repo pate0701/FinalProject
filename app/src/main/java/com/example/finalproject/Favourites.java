@@ -1,8 +1,10 @@
 package com.example.finalproject;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,7 +52,7 @@ public class Favourites extends AppCompatActivity {
         int urlColumnIndex = results.getColumnIndex(DatabaseOpener.COL_URL);
 
 
-        while (results.moveToNext()) ;
+        while (results.moveToNext())
         {
             long id = results.getLong(idColIndex);
             String title = results.getString(titleColumnIndex);
@@ -76,7 +78,10 @@ public class Favourites extends AppCompatActivity {
         builder.setTitle("Selected News")
                 .setMessage("Title : " + selectedNews.getTitle() + "\nDescription : " + selectedNews.getExplanation())
                 .setPositiveButton("Open In Browser", (click, b) -> {
-                    selectedNews.getHdurl();
+                   String Url= selectedNews.getHdurl();
+                   Intent intent=new Intent((Intent.ACTION_VIEW));
+                   intent.setData(Uri.parse(Url));
+                   startActivity(intent);
                 })
                 .setNegativeButton("Delete", (click, b) -> {
                     deleteNews(selectedNews); //remove the contact from database
@@ -91,7 +96,7 @@ public class Favourites extends AppCompatActivity {
 
     protected void deleteNews(NewsResponse news) {
         db.delete(DatabaseOpener.TABLE_NAME, DatabaseOpener.COL_ID + "= ?", new String[]{Long.toString(news.getId())});
-        db.close();
+       // db.close();
     }
 
 
