@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FinalProject</string>
     <string name="app1">Guardian News Article Search</string>
@@ -8,4 +9,11 @@
     <string name="app2_desc">Retrieve Image From NASA Server</string>
     <string name="app3_desc">Image of a position of Lat and Lon</string>
     <string name="app4_desc">Read Latest News Headlines</string>
+
+    <string name="author">Bakul Prajapati</string>
+    <string name="app_name_me">BBC News Reader</string>
+    <string name="date">4 April,2020</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
 </resources>

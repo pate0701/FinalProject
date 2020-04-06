@@ -155,8 +155,9 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/BBCNEWS"
                     android:layout_width="64dp"
-                    android:layout_height="64dp"
+                    android:layout_height="54dp"
                     android:background="@drawable/circleyellow"
                     android:padding="10dp"
                     android:src="@drawable/icon4" />

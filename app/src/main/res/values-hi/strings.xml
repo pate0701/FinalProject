@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">अंतिम परियोजना</string>
+    <string name="app1">संरक्षक समाचार लेख खोज</string>
+    <string name="app2">नासा की छवि दिन</string>
+    <string name="app3">नासा अर्थ इमेजरी डेटाबेस</string>
+    <string name="app4">बीबीसी न्यूज़ रीडर</string>
+    <string name="app1_desc">टर्म के साथ लेख खोजें</string>
+    <string name="app2_desc">नासा सर्वर से छवि पुनर्प्राप्त करें</string>
+    <string name="app3_desc">लैट और लोन्स की स्थिति की छवि</string>
+    <string name="app4_desc">पढ़ें ताजा खबर की हेडलाइंस</string>
+
+    <string name="author">बकुल प्रजापति</string>
+    <string name="app_name_me">बीबीसी न्यूज़ रीडर</string>
+    <string name="date">4 अप्रैल, 2020</string>
+    <string name="open">खुला हुआ</string>
+    <string name="close">बंद करे</string>
+
+</resources>
