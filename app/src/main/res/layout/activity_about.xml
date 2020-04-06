@@ -7,17 +7,61 @@
     tools:context=".About"
     android:orientation="vertical">
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details:"
+        android:textAllCaps="true"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="10dp"
+        />
+
     <TextView
         android:id="@+id/About1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/About1" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About:"
+        android:textAllCaps="true"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="10dp"
+        />
 
     <TextView
         android:id="@+id/About2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:text="@string/About2" />
+    <TextView
+        android:id="@+id/About4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/About4" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="15dp"
+        />
+
+
+
 </LinearLayout>

@@ -71,7 +71,7 @@ public class NewsDownloader extends AppCompatActivity implements NavigationView.
         String message = null;
         switch (item.getItemId()) {
             case R.id.item1:{
-                message = "Navigating to Help Instructions.";
+                message = "About the Application";
                 startActivity(new Intent(NewsDownloader.this,About.class));
             }
                 break;

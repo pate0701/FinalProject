@@ -16,6 +16,17 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
 
-    <string name="About1">It is the application that makes you to read the latest news from BBC news. By click on the favourite button you can save the news for later time.</string>
-    <string name="About2"></string>
+    <string name="About1">It is the application that makes you to read the latest news from BBC news. By click on the favourite button you can save the news for later time.
+    The saved news can be deleted by clicking delete and can be open on web browser. You can also delete the news headline that you saved.</string>
+    <string name="About2">Bakul Prajapati (praj0020@algonquinlive.com)</string>
+    <string name="About3">FeedBack form  </string>
+    <string name="About4">(4 April,2020) </string>
+
+    <string name="itemnav1">Read News</string>
+    <string name="itemnav2">View Favourites</string>
+    <string name="itemnav3">HomePage</string>
+
+    <string name="message">About the Application</string>
+    <string name="message1">Added to Favourites</string>
+
 </resources>

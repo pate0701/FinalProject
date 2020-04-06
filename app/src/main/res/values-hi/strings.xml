@@ -16,6 +16,16 @@
     <string name="open">खुला हुआ</string>
     <string name="close">बंद करे</string>
 
-    <string name="About1"></string>
-    <string name="About2"></string>
+    <string name="About1">यह आवेदन है कि आप बीबीसी समाचार से नवीनतम समाचार पढ़ने के लिए बनाता है। पसंदीदा बटन पर क्लिक करके आप बाद के समय के लिए समाचार को सहेज सकते हैं। सेव की गई खबरों को डिलीट क्लिक करके डिलीट किया जा सकता है और वेब ब्राउजर पर ओपन किया जा सकता है। आप अपने द्वारा सहेजे गए समाचार शीर्षक को भी हटा सकते हैं।</string>
+    <string name="About2">बकुल प्रजापति (praj0020@algonquinlive.com)</string>
+    <string name="About3">प्रतिक्रिया फॉर्म</string>
+    <string name="About4">4 अप्रैल, 2020</string>
+
+
+    <string name="itemnav1">समाचार पढ़ो</string>
+    <string name="itemnav2">पसंदीदा देखें</string>
+    <string name="itemnav3">मुखपृष्ठ</string>
+
+    <string name="message">इस एप्लिकेशन के बारे में</string>
+    <string name="message1">पसंदीदा में जोड़ा गया</string>
 </resources>
