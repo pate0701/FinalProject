@@ -33,7 +33,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 public class NewsDownloader extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    private static String Url = "http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml";
+    private static String Url = "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml";
     ListView listView;
     CustomAdapter adapter;
 
