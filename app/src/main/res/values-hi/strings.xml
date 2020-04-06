@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">अंतिम परियोजना</string>
+    <string name="app1">संरक्षक समाचार लेख खोज</string>
+    <string name="app2">नासा की छवि दिन</string>
+    <string name="app3">नासा अर्थ इमेजरी डेटाबेस</string>
+    <string name="app4">बीबीसी न्यूज़ रीडर</string>
+    <string name="app1_desc">टर्म के साथ लेख खोजें</string>
+    <string name="app2_desc">नासा सर्वर से छवि पुनर्प्राप्त करें</string>
+    <string name="app3_desc">लैट और लोन्स की स्थिति की छवि</string>
+    <string name="app4_desc">पढ़ें ताजा खबर की हेडलाइंस</string>
+    <string name="latitute">अक्षांश:</string>
+    <string name="longitute">देशांतर:</string>
+    <string name="fetch">लाना</string>
+    <string name="add_favorite">पसंदीदा में जोड़ें</string>
+    <string name="favorite">पसंदीदा</string>
+    <string name="author">जय पटेल</string>
+    <string name="date">02 अप्रैल 2020</string>
+    <string name="open">खुला हुआ</string>
+    <string name="close">बंद करे</string>
+    <string name="item1">छवि देखें</string>
+    <string name="item2">पसंदीदा देखें</string>
+    <string name="item3">ऐप सेलेक्शन में जाएं</string>
+
+    <string name="help">Help</string>
+    <string name="use">Direction To Use :</string>
+    <string name="use_desc"></string>
+    <string name="features">Features :</string>
+    <string name="features_desc">You can search image from various location from input of Latitude and Longitude. If you like that place you can add it to your favourite list.It is very user friendly and Easy-To-Use application.</string>
+    <string name="dev">About the Developer :</string>
+    <string name="dev_desc">Myself Jay Patel,the developer of this Application.</string>
+    <string name="contact">Business Contact :</string>
+    <string name="contact_desc">Email : pate0701@algonquinlive.com</string>
+    <string name="final_greet">Thanks !</string>
+</resources>

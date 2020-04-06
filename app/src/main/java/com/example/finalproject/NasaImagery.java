@@ -1,12 +1,5 @@
 package com.example.finalproject;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Context;
@@ -14,11 +7,8 @@ import android.content.ContextWrapper;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -26,26 +16,20 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileDescriptor;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
 
 public class NasaImagery extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -119,7 +103,22 @@ public class NasaImagery extends AppCompatActivity implements NavigationView.OnN
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
         drawerLayout.closeDrawer(GravityCompat.START);
 
-        return false;
+        switch (item.getItemId()) {
+            //what to do when the menu item is selected:
+            case R.id.itemNav1:
+                startActivity(new Intent(NasaImagery.this, NasaImagery.class));
+                Toast.makeText(this, "Enter Latitude and Longitude and Click Fetch Button.", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.itemNav2:
+                startActivity(new Intent(NasaImagery.this, Favourites.class));
+                Toast.makeText(this, "Click On Any Favorites to View and Delete.", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.itemNav3:
+                finish();
+                break;
+        }
+
+        return true;
     }
 
     private void saveToInternalStorage(Bitmap bitmapImage,long id){
@@ -157,11 +156,13 @@ public class NasaImagery extends AppCompatActivity implements NavigationView.OnN
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId())
         {
-            case R.id.show_fav:
-                {
-                    Intent intent = new Intent (NasaImagery.this, Favourites.class);
-                    startActivity (intent);
-                }break;
+            case R.id.show_fav: {
+                startActivity(new Intent(NasaImagery.this, Favourites.class));
+            } break;
+
+            case R.id.help: {
+                startActivity(new Intent(NasaImagery.this, About.class));
+            }
 
         }
         return true;

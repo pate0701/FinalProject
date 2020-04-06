@@ -9,7 +9,7 @@
     <string name="app3_desc">Image of a position of Lat and Lon</string>
     <string name="app4_desc">Read Latest News Headlines</string>
     <string name="latitute">Latitude : </string>
-    <string name="longitute">Longitutde : </string>
+    <string name="longitute">Longitude : </string>
     <string name="fetch">Fetch</string>
     <string name="add_favorite">Add to Favourite</string>
     <string name="favorite">Favourite</string>
@@ -17,4 +17,18 @@
     <string name="date">02 April 2020</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="item1">View Image</string>
+    <string name="item2">View Favourites</string>
+    <string name="item3">Go to App Selection</string>
+
+    <string name="help">Help</string>
+    <string name="use">Direction To Use :</string>
+    <string name="use_desc">Enter Latitude and Longitude Values int hte editText and Click Fetch Button and If you like the image then you can add it to favourites by clicking on "Add to Favourites" Button.</string>
+    <string name="features">Features :</string>
+    <string name="features_desc">You can search image from various location from input of Latitude and Longitude. If you like that place you can add it to your favourite list.It is very user friendly and Easy-To-Use application.</string>
+    <string name="dev">About the Developer :</string>
+    <string name="dev_desc">Myself Jay Patel,the developer of this Application.</string>
+    <string name="contact">Business Contact :</string>
+    <string name="contact_desc">Email : pate0701@algonquinlive.com</string>
+    <string name="final_greet">Thanks !</string>
 </resources>

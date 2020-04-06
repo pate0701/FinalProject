@@ -5,6 +5,12 @@
     <item android:id="@+id/show_fav"
         android:title="@string/favorite"
         android:icon="@drawable/favourite"
+        android:orderInCategory="50"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/help"
+        android:title="@string/help"
+        android:icon="@drawable/help"
         android:orderInCategory="100"
         app:showAsAction="always"/>
 </menu>
